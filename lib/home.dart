@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stack_listview_form/side_par.dart';
 import 'package:stack_listview_form/stack.dart';
 
 import 'learn_listview/listview.dart';
@@ -9,6 +10,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const SidePar(),
       appBar: AppBar(
         title: const Padding(
           padding: EdgeInsets.only(top:60,bottom:50),
