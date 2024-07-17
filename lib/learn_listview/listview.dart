@@ -15,7 +15,7 @@ class LearnListview extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.black87,
           title: const Text('Learn Listview', style: TextStyle(color: Colors.white),),
-
+          iconTheme:const IconThemeData(color: Colors.white),
         ),
 
         body: Container(

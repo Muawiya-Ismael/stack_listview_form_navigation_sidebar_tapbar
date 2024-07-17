@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class LearnStack extends StatelessWidget {
@@ -8,11 +10,13 @@ class LearnStack extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Padding(
-            padding: EdgeInsets.only(top:40,bottom:10),
+          padding: EdgeInsets.only(top:40,bottom:10),
           child: Text("Learn Stack", style: TextStyle(color: Colors.white),),
         ),
         backgroundColor: Colors.black,
         centerTitle: true,
+        iconTheme:const IconThemeData(color: Colors.white),
+
       ),
       body: Container(
         color: Colors.black,
